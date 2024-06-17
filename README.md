@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Referral Portal Bot
 
-## Getting Started
+A Discord bot designed to streamline the referral process by allowing users to submit referral requests, which employees of the requested company can review and act upon.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Introduction](#introduction)
+- [Features](#features)
+- [Usage](#usage)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Introduction
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The **Referral Portal Bot** is a Discord bot that facilitates the referral process within a company by connecting potential candidates with employees who can provide referrals. Users can submit their resumes and details via the bot, and employees can review these submissions to offer referrals.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+[Join our Discord server](https://discord.gg/e6f8Ywj9)
 
-## Learn More
+## Features
 
-To learn more about Next.js, take a look at the following resources:
+- **User Submission**: Users can submit referral requests, including their resume and details, directly via Discord.
+- **Employee Review**: Employees can view and review referral requests and access the submitted resumes and details.
+- **Discord Integration**: Seamlessly integrates with Discord for notifications and interactions.
+- **Secure**: Ensures privacy and security of the submitted data.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Usage
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### For Users
 
-## Deploy on Vercel
+- **Submit a referral request**:
+    - Use the following command in Discord:
+        ```bash
+        ;ref get
+        ```
+    - The bot will send a form link to your Direct Messages (DM), where you can fill out your application. Note that the form link is valid for a single application.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### For Employees
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **View pending requests**:
+    - Log in to the [Referral Portal website](#) after the admin panel verifies your registration details.
+    - Once logged in, you can access and review pending referral requests.
+    
+- **Mark a request as reviewed**:
+    - After reviewing a candidate’s profile and resume, you can choose to offer a referral or reject the request if the candidate does not meet the requirements for the role.
+
+## Contact
+
+For support or questions, please reach out through the Discord server.
+
+---
+
+Ensure the privacy of the candidates and use the platform responsibly to improve the referral process efficiently.
