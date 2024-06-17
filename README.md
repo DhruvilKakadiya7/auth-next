@@ -35,7 +35,7 @@ The **Referral Portal Bot** is a Discord bot that facilitates the referral proce
 ### For Employees
 
 - **View pending requests**:
-    - Log in to the [Referral Portal website](#) after the admin panel verifies your registration details.
+    - Log in to the [Referral Portal website](ref-portal-indol.vercel.app) after the admin panel verifies your registration details.
     - Once logged in, you can access and review pending referral requests.
     
 - **Mark a request as reviewed**:
